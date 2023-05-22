@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'NoirPro';
+  src: url('NoirPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('NoirPro-Light.woff') format('woff'),
+  url('NoirPro-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NoirPro';
+  src: url('NoirPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('NoirPro-Regular.woff') format('woff'),
+  url('NoirPro-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NoirPro';
+  src: url('NoirPro-Medium.eot?#iefix') format('embedded-opentype'),
+  url('NoirPro-Medium.woff') format('woff'),
+  url('NoirPro-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NoirPro';
+  src: url('NoirPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('NoirPro-SemiBold.woff') format('woff'),
+  url('NoirPro-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NoirPro';
+  src: url('NoirPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('NoirPro-Bold.woff') format('woff'),
+  url('NoirPro-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NoirPro';
+  src: url('NoirPro-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('NoirPro-Heavy.woff') format('woff'),
+  url('NoirPro-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.gx-card-widget .ant-card-body {
+  height: 125px;
+}
+
+/* Assessment page css start */
+
+.assesment_btns {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: auto;
+  overflow: hidden;
+}
+.assesment_btns .ant-row {
+  margin: 0 !important;
+  display: block;
+}
+.assesment_btns .ant-col.ant-col-12.ant-col-sm-12 {
+  width: auto;
+  flex: none;
+  margin-left: 15px;
+  padding: 0;
+  float: left !important;
+}
+.ant-card.gx-card.cust_asses {
+  position: relative;
+}
+.ant-col.assess_right {
+  padding-left: 50px;
+}
+.ant-col.assess_right .ant-col.ant-form-item-label.ant-col-xs-24.ant-col-sm-10 {
+  width: auto;
+}
+/* Assessment page css end */
+
+/* Add profiler page css start*/
+a.add_profile_back {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.ant-card.gx-card.add_profile_cust.ant-card-bordered {
+  position: relative;
+}
+/* Add profiler page css end */

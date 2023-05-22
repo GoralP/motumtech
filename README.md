@@ -1,1 +1,1 @@
-# motumtech
+replace root pdf.js to node_modules\pdfjs-dist\build after npm install
